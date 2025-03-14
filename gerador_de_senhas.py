@@ -13,5 +13,5 @@ quantidade = int(input("Qual é o número de caracteres que você deseja para ca
 print("\nAqui estão suas novas senhas:\n") #requisição de saída do código
 
 for _ in range(numero): 
-    senha = "".join(random.choice(caracteres) for _ in range(quantidade))
+    senha = "".join(random.choice(caracteres) for _ in range(quantidade)) #Comando para randomizar entre todos os caracteres
     print(senha) #saída resultante do código, com o número de senhas e caracteres requerido.
